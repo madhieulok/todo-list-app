@@ -1,0 +1,12 @@
+{% extends 'basapp/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">&#8592;Go Back</a>
+</div>
+
+<div class="header-bar">
+    <h1>Task: {{task}}</h1>
+</div>
+
+{% endblock content %}
