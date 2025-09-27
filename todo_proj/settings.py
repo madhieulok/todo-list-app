@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-h-+)e$r(p(b5r!evl0=&3rh06dz2%%g%0p(hq4xcs)4^kec3w*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['to-do-list-app.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://to-do-list-app.up.railway.app',
+]
+
 
 
 # Application definition
